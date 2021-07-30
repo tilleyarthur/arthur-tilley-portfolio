@@ -1,0 +1,10 @@
+header {
+  color: forestgreen;
+  font: Helvetica;
+  font-weight: bold;
+  background-color: darkgrey;
+}
+
+img {
+  width: 25%;
+}
