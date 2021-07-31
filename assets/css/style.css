@@ -31,9 +31,8 @@ header nav {
   display: flex;
   justify-content: flex-end;
   flex-wrap: wrap;
-  
-
 }
+
 
 header li {
   display: block;
@@ -51,25 +50,32 @@ header nav ul {
   list-style: none;
 }
 
+
 section {
   padding: 250px;
 }
 
 .hero {
+  padding: 35px;
   background-image: url("../images/img1.jpg");
   background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: flex-start;
+  background-position: 25% 75%;
   background-attachment: absolute;
-  background-position: 80%;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 13px;
+  
+  
 }
 
 .hero div {
+  
+  padding: 20px;
+  width: 40%;
+  margin: 3.5%;
   display: flex;
   justify-content: flex-end;
+  
 }
 
 
