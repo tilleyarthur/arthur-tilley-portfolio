@@ -1,10 +1,75 @@
-header {
-  color: forestgreen;
-  font: Helvetica;
-  font-weight: bold;
-  background-color: darkgrey;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-img {
-  width: 25%;
+body {
+  font-family: Helvetica, Arial, sans-sarif;
 }
+
+header {
+  background-color: #000000;
+  padding: 20px;
+  display: flex;
+  flex-wrap: flex-end;
+}
+
+header div {
+  background-color: lightblue;
+}
+
+header h1 {
+  font-size: 48px;
+  display:flex;
+  flex-wrap: wrap;
+  
+}
+
+header nav {
+  width: 75%;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  
+
+}
+
+header li {
+  display: block;
+  
+  padding: 10px;
+  font-size: 20px;
+  white-space: nowrap;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-end;
+  list-style: none;
+}
+
+section {
+  padding: 250px;
+}
+
+.hero {
+  background-image: url("../images/img1.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  background-attachment: absolute;
+  background-position: 80%;
+}
+
+.hero div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
