@@ -1,6 +1,121 @@
-h1 {
-  color: forestgreen;
-  font: arial;
-  font-weight: bold;
-  background-color: yellow;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
+body {
+  font-family: Verdana;
+}
+
+header {
+  background-color: #000000;
+  padding: 20px;
+  display: flex;
+  flex-wrap: flex-end;
+}
+
+header div {
+  background-color: lightblue;
+}
+
+header h1 {
+  font-size: 36px;
+  display:flex;
+  flex-wrap: wrap;
+  
+}
+
+header nav {
+  width: 75%;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  color: #ffffff;
+
+}
+
+
+header li {
+  display: block;
+  
+  padding: 10px;
+  font-size: 20px;
+  white-space: nowrap;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-end;
+  list-style: none;
+}
+
+
+section {
+  padding: 250px;
+}
+
+.hero {
+  padding: 35px;
+  background-image: url("../images/img1.jpg");
+  background-size: cover;
+  background-position: 25% 75%;
+  background-attachment: absolute;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 13px;
+  
+  
+}
+
+.hero div {
+  
+  padding: 20px;
+  width: 40%;
+  margin: 3.5%;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+.me {
+  display: flex;
+  justify-content:flex-start;
+}
+
+.section-title {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 52px;
+}
+
+.flex-row p {
+  display:flex;
+  justify-content: center;
+  padding: 50px;
+  margin: -6%;
+  line-height: 1.75;
+}
+
+.work {
+  display: flex;
+}
+
+.contact {
+  display: flex;
+}
+
+.links nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 10px;
+}
+
+.links nav ul li {
+  padding: 80px;
+}
+  
+
