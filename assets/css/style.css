@@ -16,7 +16,7 @@ header {
 }
 
 header div {
-  background-color: lightblue;
+  background-color: rgb(50, 175, 216);
 }
 
 header h1 {
@@ -36,12 +36,16 @@ header nav {
 }
 
 
-header li {
+header nav ul li {
   display: block;
   
   padding: 10px;
   font-size: 20px;
   white-space: nowrap;
+}
+
+header nav ul li a {
+  color: rgb(50, 175, 216);
 }
 
 header nav ul {
@@ -65,14 +69,21 @@ section {
   background-attachment: absolute;
   display: flex;
   justify-content: flex-end;
-  font-size: 13px;
+  color: black;
+  font-size: 17px;
+  font-style: italic;
   
   
 }
 
+.hero h2 {
+  background: white;
+  opacity: 0.5;
+}
+
 .hero div {
   
-  padding: 20px;
+  padding: 40px;
   width: 40%;
   margin: 3.5%;
   display: flex;
@@ -80,7 +91,16 @@ section {
   
 }
 
+.content {
+  padding: 100px;
+  margin: 3%;
+  display: flex;
+  flex-direction: column;
+}
+
 .me {
+  padding: 20px;
+  margin-bottom: 20%;
   display: flex;
   justify-content:flex-start;
 }
@@ -100,11 +120,17 @@ section {
 }
 
 .work {
+  padding: 20px;
+  margin-bottom: 20%;
   display: flex;
+  justify-content:flex-start;
 }
 
 .contact {
+  padding: 20px;
+  margin-bottom: 20%;
   display: flex;
+  justify-content:flex-start;
 }
 
 .links nav ul {
@@ -116,6 +142,13 @@ section {
 
 .links nav ul li {
   padding: 80px;
+}
+
+.resume {
+  padding: 20px;
+  margin-bottom: 20%;
+  display: flex;
+  justify-content:flex-start;
 }
   
 
