@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: Helvetica, Arial, sans-sarif;
+  font-family: Verdana;
 }
 
 header {
@@ -20,7 +20,7 @@ header div {
 }
 
 header h1 {
-  font-size: 48px;
+  font-size: 36px;
   display:flex;
   flex-wrap: wrap;
   
@@ -31,6 +31,8 @@ header nav {
   display: flex;
   justify-content: flex-end;
   flex-wrap: wrap;
+  color: #ffffff;
+
 }
 
 
@@ -78,4 +80,42 @@ section {
   
 }
 
+.me {
+  display: flex;
+  justify-content:flex-start;
+}
+
+.section-title {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 52px;
+}
+
+.flex-row p {
+  display:flex;
+  justify-content: center;
+  padding: 50px;
+  margin: -6%;
+  line-height: 1.75;
+}
+
+.work {
+  display: flex;
+}
+
+.contact {
+  display: flex;
+}
+
+.links nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 10px;
+}
+
+.links nav ul li {
+  padding: 80px;
+}
+  
 
