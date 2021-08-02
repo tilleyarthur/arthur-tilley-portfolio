@@ -59,7 +59,6 @@ header nav ul {
   list-style: none;
 }
 
-
 section {
   padding: 250px;
 }
@@ -139,12 +138,8 @@ section {
   padding: 20px;
 }
 
-
-
 h2:not(.hero h2) {
-  
   color: rgb(60, 91, 138)
-  
 }
 
 .relative h2 {
@@ -239,10 +234,6 @@ h2:not(.hero h2) {
   background-color: rgb(131 199 199);
 }
 
-
-
-
-
 .contact {
   padding: 20px;
   margin-bottom: 20%;
@@ -255,11 +246,18 @@ h2:not(.hero h2) {
   justify-content: space-evenly;
   list-style: none;
   padding: 10px;
+  
 }
 
 .links nav ul li {
   padding: 80px;
 }
+
+.links nav ul li a {
+  border-bottom: 4px solid rgb(60, 91, 138);
+  padding-bottom: 5px;
+  }
+
 
 
   
