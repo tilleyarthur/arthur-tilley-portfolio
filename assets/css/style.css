@@ -139,10 +139,19 @@ section {
   padding: 20px;
 }
 
+
+
 h2:not(.hero h2) {
-  position: absolute;
+  
+  color: rgb(60, 91, 138)
+  
 }
 
+.relative h2 {
+  position: relative;
+  right: 20px;
+  bottom: 15px;
+}
 
 .flex-row p {
   display:flex;
@@ -178,6 +187,8 @@ h2:not(.hero h2) {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  background-image: url("../images/horiseon.jpg");
+  background-size: 465px;
 }
 
 .section-title-1 {
@@ -189,7 +200,48 @@ h2:not(.hero h2) {
   font-weight: bold;
   display: flex;
   align-items: flex-start;
+  background-image: url("../images/run-buddy.jpg");
+  background-size: 1050px;
+  
 }
+
+.section-title2 {
+  width: 45%;
+  border: 4px solid rgb(131 199 199);
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  padding: 20px 0;
+  min-height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: rgb(131 199 199);
+}
+
+.section-title2 a {
+  position: relative;
+  bottom: 13.5px;
+  right: 164px;
+}
+
+.flex-row3 a {
+  position: relative;
+  right: 175px;
+  top: 145px;
+  background-color: rgb(131 199 199);
+}
+
+.section-title a {
+  position: relative;
+  right: 156px;
+  bottom: 15px;
+  background-color: rgb(131 199 199);
+}
+
+
+
+
 
 .contact {
   padding: 20px;
@@ -209,11 +261,6 @@ h2:not(.hero h2) {
   padding: 80px;
 }
 
-.resume {
-  padding: 20px;
-  margin-bottom: 20%;
-  display: flex;
-  justify-content:flex-start;
-}
+
   
 
