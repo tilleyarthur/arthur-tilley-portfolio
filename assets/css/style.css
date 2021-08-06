@@ -22,7 +22,7 @@ header div {
   padding: 14px;
 }
 
-header h1 {
+h1 {
   font-size: 36px;
   display:flex;
   flex-wrap: wrap;
@@ -196,7 +196,7 @@ h2:not(.hero h2) {
   display: flex;
   align-items: flex-start;
   background-image: url("../images/run-buddy.jpg");
-  background-size: 1050px;
+  background-size: auto;
   
 }
 
@@ -258,7 +258,11 @@ h2:not(.hero h2) {
   padding-bottom: 5px;
   }
 
+@media screen and (max-width: 980px) {
 
-
-  
+ {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
 
