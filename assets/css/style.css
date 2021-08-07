@@ -282,7 +282,6 @@ h2:not(.hero h2) {
   position: relative;
   text-align: center;
   font-size: 16px;
-  
   }
 
   .flex-row1 {
@@ -359,6 +358,6 @@ h2:not(.hero h2) {
     border-right-style: none;
   }
   .flex-row4 h2 {
-    
     border-bottom-style: solid;
+  }
 }
