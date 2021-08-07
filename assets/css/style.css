@@ -51,6 +51,10 @@ header nav ul li a {
   border-bottom: 2px solid rgb(131 199 199);
 }
 
+header nav ul li a:hover {
+  color: red;
+}
+
 header nav ul {
   display: flex;
   flex-wrap: wrap;
@@ -171,6 +175,10 @@ h2:not(.hero h2) {
   padding: 20px
 }
 
+.projects a:hover {
+  color: red;
+}
+
 .section-title {
   width: 45%;
   border: 4px solid rgb(131 199 199);
@@ -184,6 +192,10 @@ h2:not(.hero h2) {
   align-items: flex-end;
   background-image: url("../images/horiseon.jpg");
   background-size: 465px;
+}
+
+.section-title:hover {
+  opacity: 0.5;
 }
 
 .section-title-1 {
@@ -200,6 +212,10 @@ h2:not(.hero h2) {
   
 }
 
+.section-title-1:hover  {
+  opacity: 0.5;
+}
+
 .section-title2 {
   width: 45%;
   border: 4px solid rgb(131 199 199);
@@ -212,6 +228,10 @@ h2:not(.hero h2) {
   justify-content: center;
   align-items: flex-end;
   background-color: rgb(131 199 199);
+}
+
+.section-title2:hover {
+  opacity: 0.5;
 }
 
 .section-title2 a {
@@ -257,6 +277,10 @@ h2:not(.hero h2) {
   border-bottom: 4px solid rgb(60, 91, 138);
   padding-bottom: 5px;
   }
+
+.links nav ul li a:hover {
+  color: red;
+}
 
   @media screen and (max-width: 980px) {
     header div {
