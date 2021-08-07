@@ -258,7 +258,111 @@ h2:not(.hero h2) {
   padding-bottom: 5px;
   }
 
-@media screen and (max-width: 575px) {
+  @media screen and (max-width: 980px) {
+    header div {
+      position: relative;
+      top: 10px;
+      left: 8px;
+    }
+    
+    h1 {
+      font-size: 16px;
+    }
+    
+    header nav ul li a {
+      font-size: 8px;
+    }
+  
+    .hero h2 {
+    font-size: 10px;
+    }
+  
+    .me {
+    position: relative;
+    text-align: center;
+    font-size: 16px;
+    }
+  
+    .flex-row1 {
+      border-right-style: none;
+      border-bottom-style: solid;
+    }
+  
+    .flex-row {
+      padding: 60px;
+      position: relative;
+      right: 210px;
+      display: flex;
+      flex-direction: row;
+    }
+    
+    .content {
+      padding: 100px;
+      margin-left: auto;
+      display: flex;
+      
+    }
+    
+    .work {
+      position: relative;
+      text-align: center;
+      font-size: 16px;
+    }
+  
+    .flex-row2 {
+      border-right-style: none;
+      border-bottom-style: solid;
+    }
+  
+    .projects {
+      padding: 5px;
+      position: relative;
+      right: 250px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  
+    .section-title-1 {
+      background-size: 750px;
+    }
+  
+    .section-title .section-title2 {
+      width: 150%;
+    }
+  
+    .section-title a {
+      position: unset;
+    }
+    
+    .section-title2 a {
+      position: unset; 
+    }
+  
+    .contact {
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      padding-right: 150px;
+      font-size: 16px;
+    }
+      
+    .links nav ul li {
+      padding: 10px;
+      display: flex;
+      justify-content: start;
+    }
+      
+    .flex-row4 {
+      border-right-style: none;
+    }
+  
+    .flex-row4 h2 {
+      border-bottom-style: solid;
+    }
+  }
+  
+  @media screen and (max-width: 575px) {
   
   header div {
     position: relative;
@@ -295,12 +399,15 @@ h2:not(.hero h2) {
     right: 210px;
     display: flex;
     flex-direction: row;
-
-    
+  }
+  
+  .content {
+    padding: 100px;
+    margin-left: auto;
+    display: flex;
     
   }
   
-
   .work {
     position: relative;
     text-align: center;
@@ -343,20 +450,23 @@ h2:not(.hero h2) {
     flex-wrap: wrap;
     padding-right: 150px;
     font-size: 16px;
-
+    width: 100%;
   }
     
+  .links {
+    width: 100%;
+  }
+  
   .links nav ul li {
     padding: 10px;
     display: flex;
     justify-content: start;
-
-    
-
   }
+    
   .flex-row4 {
     border-right-style: none;
   }
+
   .flex-row4 h2 {
     border-bottom-style: solid;
   }
