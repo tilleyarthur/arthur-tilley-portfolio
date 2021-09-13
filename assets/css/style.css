@@ -244,11 +244,15 @@ h2:not(.hero h2) {
   background-image: url("../images/idmb.jpeg");
   background-size: 465px;
 }
+
+.section-title-2:hover {
+  opacity: 0.75;
+}
   
   
 
 .section-title2:hover {
-  opacity: 0.5;
+  opacity: 0.75;
 }
 
 .section-title2 a {
@@ -256,6 +260,13 @@ h2:not(.hero h2) {
   bottom: 13.5px;
   right: 164px;
 }
+
+.section-title-2 a {
+  position: relative;
+  bottom: 13.5px;
+  right: 164px;
+}
+
 
 .flex-row3 a {
   position: relative;
